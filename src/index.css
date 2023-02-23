@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .coinBtn {
+    @apply text-white bg-orange-500 rounded-md text-center cursor-pointer   transition-colors hover:bg-orange-300 p-5 mb-2;
+  }
+}
